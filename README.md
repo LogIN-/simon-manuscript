@@ -1,6 +1,6 @@
 <h1>
 
-<img src="icon.png"
+<img src="images/icon.png"
   width="128"
   style="float:left;"> \# SIMON manuscript source code
 </h1>
