@@ -49,7 +49,7 @@ export R_MAX_NUM_DLLS=1000
 The influenza datasets were obtained from the `Stanford Data Miner` maintained by the `Human Immune Monitoring Center at Stanford University`. 
 This included total of 177 csv files, which were automatically imported to the MySQL database to facilitate further analysis. 
 The database, named `FluPRINT` and its source code, including the installation tutorial are freely available [here](https://github.com/LogIN-/fluprint)
-and on project’s [website](www.fluprint.com).
+and on project's [website](https://fluprint.com/#/about).
 Following database installation, you can obtain data used in the `SIMON` publication by following MySQL database query:
 
 ```sql
@@ -74,7 +74,7 @@ ORDER  BY donors.study_donor_id DESC
 #### Starting from the initial dataset
 
 For those with limited or no programming experience to install MySQL database, we recommend to start immediately with the initial dataset. 
-The initial dataset used in the publication is available at [Zenodo](https://zenodo.org/record/2578166#.XHWDibh7lPY) for download.
+The initial dataset used in the publication is published and avaliable for download here [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2578166.svg)](https://doi.org/10.5281/zenodo.2578166)
 
 #### Generation of datasets using the mulset algorithm
 
@@ -112,14 +112,14 @@ end for;
 #### SIMON output data
 
 
-* Data obtained after datasets generation step using the `mulset` algorithm and data partitioning function is available for download from [Zenodo](https://zenodo.org/record/2580414#.XHh1drh7lPY).
+* Data obtained after datasets generation step using the `mulset` algorithm and data partitioning function is published here [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2580414.svg)](https://doi.org/10.5281/zenodo.2580414)
 
-* To reproduce results from the publication, you must use models that were built by `SIMON`. All models are available at [Zenodo](https://zenodo.org/record/2580416#.XHiItLh7lPY) for direct download.
+* To reproduce results from the publication, you must use models that were built by `SIMON`. All models are published here [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2580416.svg)](https://doi.org/10.5281/zenodo.2580416)
 
-* Exploratory analysis is available freely at [project's website](www.fluprint.com). Since [the website](https://www.fluprint.com) is available as an [open source project](https://github.com/LogIN-/fluprint.com), one can easily reproduce the data from the exploratory analysis using [data provided](https://raw.githubusercontent.com/LogIN-/fluprint.com/master/static/data.json) in the repository.
+* Exploratory analysis is available freely at [project's website](https://www.fluprint.com). Since [the website](https://www.fluprint.com) is available as an [open source project](https://github.com/LogIN-/fluprint.com), one can easily reproduce the data from the exploratory analysis using [data provided](https://raw.githubusercontent.com/LogIN-/fluprint.com/master/static/data.json) in the repository.
 
 ### License
-See our LICENSE file.
+See our `LICENSE` file.
 
 
 ## Citation
